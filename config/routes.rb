@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-  root "main#index"
-
-  get 'main/index'
+  root "books#index"
 
   resources :books do
     member do
