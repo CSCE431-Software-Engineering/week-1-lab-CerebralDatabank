@@ -1,7 +1,7 @@
 <%= link_to("Back to List", books_path, :class => 'back-link') %>
 
-<div class="tasks new">
-  <h2>Create Task</h2>
+<div class="books new">
+  <h2>Create Book</h2>
 
   <%= form_for(@book) do |f| %>
     <%= render(partial: 'form', locals: {f: f}) %>
